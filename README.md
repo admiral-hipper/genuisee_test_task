@@ -1,5 +1,5 @@
 <h2>NOTES:</h2>
-        <p>API token should be set in .env file.</p>
+        <p>API token should be set in .env file. (OMDB_API_KEY)</p>
         <p>
             To generate api token for endpoints use command -
             <code>php artisan generate:apikey</code>
