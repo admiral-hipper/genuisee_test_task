@@ -1,0 +1,23 @@
+type Mutation {
+    updateMovie(movieInput: MovieInput!): Movie!
+}
+
+input MovieInput {
+    imdbID: ID!
+    title: String
+    type: String
+    releasedDate: String
+    year: String
+    posterUrl: String
+    genre: String
+    runtime: String
+    country: String
+    imdbRating: String
+    imdbVotes: String
+    ratings: [RatingInput!]
+}
+
+input RatingInput {
+    source: String!
+    value: String!
+}

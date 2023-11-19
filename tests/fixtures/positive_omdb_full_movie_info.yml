@@ -1,0 +1,72 @@
+
+-
+    request:
+        method: GET
+        url: 'http://www.omdbapi.com?i=tt0796366&apiKey=31b14a8a'
+        headers:
+            Host: www.omdbapi.com
+            Accept-Encoding: ''
+            User-Agent: GuzzleHttp/7
+            Accept: ''
+    response:
+        status:
+            code: 200
+            message: OK
+        headers:
+            Date: 'Sun, 19 Nov 2023 19:50:27 GMT'
+            Content-Type: 'application/json; charset=utf-8'
+            Content-Length: '1044'
+            Connection: keep-alive
+            Cache-Control: 'public, max-age=86400'
+            Expires: 'Sun, 19 Nov 2023 18:32:29 GMT'
+            Last-Modified: 'Sun, 19 Nov 2023 17:32:29 GMT'
+            Vary: '*'
+            X-AspNet-Version: 4.0.30319
+            X-Powered-By: ASP.NET
+            Access-Control-Allow-Origin: '*'
+            CF-Cache-Status: HIT
+            Age: '8278'
+            Accept-Ranges: bytes
+            Server: cloudflare
+            CF-RAY: 828afb7559035b43-VIE
+        body: '{"Title":"Star Trek","Year":"2009","Rated":"PG-13","Released":"08 May 2009","Runtime":"127 min","Genre":"Action, Adventure, Sci-Fi","Director":"J.J. Abrams","Writer":"Roberto Orci, Alex Kurtzman, Gene Roddenberry","Actors":"Chris Pine, Zachary Quinto, Simon Pegg","Plot":"The brash James T. Kirk tries to live up to his father''s legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.","Language":"English","Country":"United States, Germany","Awards":"Won 1 Oscar. 27 wins & 95 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.9/10"},{"Source":"Rotten Tomatoes","Value":"94%"},{"Source":"Metacritic","Value":"82/100"}],"Metascore":"82","imdbRating":"7.9","imdbVotes":"615,062","imdbID":"tt0796366","Type":"movie","DVD":"01 Aug 2013","BoxOffice":"$257,730,019","Production":"N/A","Website":"N/A","Response":"True"}'
+        curl_info:
+            url: 'http://www.omdbapi.com/?i=tt0796366&apiKey=31b14a8a'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 471
+            request_size: 95
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.090569
+            namelookup_time: 0.00289
+            connect_time: 0.035204
+            pretransfer_time: 0.035303
+            size_upload: 0.0
+            size_download: 1044.0
+            speed_download: 11527.0
+            speed_upload: 0.0
+            download_content_length: 1044.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.090539
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 104.20.134.15
+            certinfo: {  }
+            primary_port: 80
+            local_ip: 172.30.0.3
+            local_port: 44520
+            http_version: 2
+            protocol: 1
+            ssl_verifyresult: 0
+            scheme: HTTP
+            appconnect_time_us: 0
+            connect_time_us: 35204
+            namelookup_time_us: 2890
+            pretransfer_time_us: 35303
+            redirect_time_us: 0
+            starttransfer_time_us: 90539
+            total_time_us: 90569
+            effective_method: GET
+    index: 0

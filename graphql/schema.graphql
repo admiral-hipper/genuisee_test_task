@@ -1,0 +1,26 @@
+type Query
+type Mutation
+
+type Movie {
+    imdbID: ID!
+    title: String!
+    type: String!
+    releasedDate: String!
+    year: String!
+    posterUrl: String!
+    genre: String!
+    runtime: String!
+    country: String!
+    imdbRating: String!
+    imdbVotes: String!
+    ratings: [Rating!]! @hasMany
+}
+
+type Rating {
+    source: String!
+    value: String!
+}
+
+#import search.graphql
+#import show.graphql
+#import update.graphql

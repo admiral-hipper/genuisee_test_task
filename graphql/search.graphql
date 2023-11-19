@@ -1,0 +1,9 @@
+extend type Mutation {
+    searchMovies(search: String!, type: Type!, page: Int!): [Movie!]!
+}
+
+enum Type {
+    movie
+    series
+    episode
+}

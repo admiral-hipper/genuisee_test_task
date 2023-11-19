@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+
+  app:
+    container_name: genuisee_test_app
+    build:
+      context: .
+      dockerfile: ./tools/docker/app.dockerfile
+    ports:
+      - 8080:80
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - mysql_db_genuisee
+
+
+  mysql_db_genuisee:
+    container_name: mysql_db_genuisee
+    image: mysql:8
+    ports:
+    - 3306:3306
+    volumes:
+      - ./../mysql:/var/lib/mysql
+    environment:
+      - MYSQL_DATABASE=genuisee_test_db
+      - MYSQL_ROOT_PASSWORD=testpassword
+
+
+
+

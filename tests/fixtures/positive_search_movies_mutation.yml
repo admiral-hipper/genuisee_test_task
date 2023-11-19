@@ -1,0 +1,214 @@
+
+-
+    request:
+        method: GET
+        url: 'http://www.omdbapi.com?apiKey=31b14a8a&s=Lock%2C+Stock+and+Two+Smoking+Barrels&type=movie&page=1'
+        headers:
+            Host: www.omdbapi.com
+            Accept-Encoding: ''
+            User-Agent: GuzzleHttp/7
+            Accept: ''
+    response:
+        status:
+            code: 200
+            message: OK
+        headers:
+            Date: 'Sun, 19 Nov 2023 22:01:54 GMT'
+            Content-Type: 'application/json; charset=utf-8'
+            Content-Length: '411'
+            Connection: keep-alive
+            Cache-Control: 'public, max-age=86400'
+            Expires: 'Sun, 19 Nov 2023 21:26:58 GMT'
+            Last-Modified: 'Sun, 19 Nov 2023 20:26:58 GMT'
+            Vary: '*'
+            X-AspNet-Version: 4.0.30319
+            X-Powered-By: ASP.NET
+            Access-Control-Allow-Origin: '*'
+            CF-Cache-Status: HIT
+            Age: '5696'
+            Accept-Ranges: bytes
+            Server: cloudflare
+            CF-RAY: 828bbc047f9a24a4-KBP
+        body: '{"Search":[{"Title":"Lock, Stock and Two Smoking Barrels","Year":"1998","imdbID":"tt0120735","Type":"movie","Poster":"https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"},{"Title":"Making of Lock Stock and Two Smoking Barrels","Year":"1998","imdbID":"tt3522962","Type":"movie","Poster":"N/A"}],"totalResults":"2","Response":"True"}'
+        curl_info:
+            url: 'http://www.omdbapi.com/?apiKey=31b14a8a&s=Lock%2C+Stock+and+Two+Smoking+Barrels&type=movie&page=1'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 470
+            request_size: 141
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.055745
+            namelookup_time: 0.002735
+            connect_time: 0.012915
+            pretransfer_time: 0.012977
+            size_upload: 0.0
+            size_download: 411.0
+            speed_download: 7372.0
+            speed_upload: 0.0
+            download_content_length: 411.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.055693
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 172.67.19.55
+            certinfo: {  }
+            primary_port: 80
+            local_ip: 172.30.0.3
+            local_port: 45108
+            http_version: 2
+            protocol: 1
+            ssl_verifyresult: 0
+            scheme: HTTP
+            appconnect_time_us: 0
+            connect_time_us: 12915
+            namelookup_time_us: 2735
+            pretransfer_time_us: 12977
+            redirect_time_us: 0
+            starttransfer_time_us: 55693
+            total_time_us: 55745
+            effective_method: GET
+    index: 0
+-
+    request:
+        method: GET
+        url: 'http://www.omdbapi.com?i=tt0120735&apiKey=31b14a8a'
+        headers:
+            Host: www.omdbapi.com
+            Accept-Encoding: ''
+            User-Agent: GuzzleHttp/7
+            Accept: ''
+    response:
+        status:
+            code: 200
+            message: OK
+        headers:
+            Date: 'Sun, 19 Nov 2023 22:01:54 GMT'
+            Content-Type: 'application/json; charset=utf-8'
+            Content-Length: '1042'
+            Connection: keep-alive
+            Cache-Control: 'public, max-age=86400'
+            Expires: 'Sun, 19 Nov 2023 21:25:59 GMT'
+            Last-Modified: 'Sun, 19 Nov 2023 20:25:59 GMT'
+            Vary: '*'
+            X-AspNet-Version: 4.0.30319
+            X-Powered-By: ASP.NET
+            Access-Control-Allow-Origin: '*'
+            CF-Cache-Status: HIT
+            Age: '5755'
+            Accept-Ranges: bytes
+            Server: cloudflare
+            CF-RAY: 828bbc04dc2777a4-KBP
+        body: '{"Title":"Lock, Stock and Two Smoking Barrels","Year":"1998","Rated":"R","Released":"28 Aug 1998","Runtime":"107 min","Genre":"Action, Comedy, Crime","Director":"Guy Ritchie","Writer":"Guy Ritchie","Actors":"Jason Flemyng, Dexter Fletcher, Nick Moran","Plot":"Eddy persuades his three pals to pool money for a vital poker game against a powerful local mobster, Hatchet Harry. Eddy loses, after which Harry gives him a week to pay back 500,000 pounds.","Language":"English","Country":"United Kingdom","Awards":"Won 1 BAFTA Award13 wins & 9 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMTAyN2JmZmEtNjAyMy00NzYwLThmY2MtYWQ3OGNhNjExMmM4XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.1/10"},{"Source":"Rotten Tomatoes","Value":"75%"},{"Source":"Metacritic","Value":"66/100"}],"Metascore":"66","imdbRating":"8.1","imdbVotes":"605,348","imdbID":"tt0120735","Type":"movie","DVD":"12 Feb 2014","BoxOffice":"$3,753,929","Production":"N/A","Website":"N/A","Response":"True"}'
+        curl_info:
+            url: 'http://www.omdbapi.com/?i=tt0120735&apiKey=31b14a8a'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 471
+            request_size: 95
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.037011
+            namelookup_time: 0.002708
+            connect_time: 0.008028
+            pretransfer_time: 0.008082
+            size_upload: 0.0
+            size_download: 1042.0
+            speed_download: 28153.0
+            speed_upload: 0.0
+            download_content_length: 1042.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.036975
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 172.67.19.55
+            certinfo: {  }
+            primary_port: 80
+            local_ip: 172.30.0.3
+            local_port: 45110
+            http_version: 2
+            protocol: 1
+            ssl_verifyresult: 0
+            scheme: HTTP
+            appconnect_time_us: 0
+            connect_time_us: 8028
+            namelookup_time_us: 2708
+            pretransfer_time_us: 8082
+            redirect_time_us: 0
+            starttransfer_time_us: 36975
+            total_time_us: 37011
+            effective_method: GET
+    index: 0
+-
+    request:
+        method: GET
+        url: 'http://www.omdbapi.com?i=tt3522962&apiKey=31b14a8a'
+        headers:
+            Host: www.omdbapi.com
+            Accept-Encoding: ''
+            User-Agent: GuzzleHttp/7
+            Accept: ''
+    response:
+        status:
+            code: 200
+            message: OK
+        headers:
+            Date: 'Sun, 19 Nov 2023 22:01:54 GMT'
+            Content-Type: 'application/json; charset=utf-8'
+            Content-Length: '757'
+            Connection: keep-alive
+            Cache-Control: 'public, max-age=86400'
+            Expires: 'Sun, 19 Nov 2023 21:31:22 GMT'
+            Last-Modified: 'Sun, 19 Nov 2023 20:31:22 GMT'
+            Vary: '*'
+            X-AspNet-Version: 4.0.30319
+            X-Powered-By: ASP.NET
+            Access-Control-Allow-Origin: '*'
+            CF-Cache-Status: HIT
+            Age: '5432'
+            Accept-Ranges: bytes
+            Server: cloudflare
+            CF-RAY: 828bbc05186924c1-KBP
+        body: '{"Title":"Making of Lock Stock and Two Smoking Barrels","Year":"1998","Rated":"N/A","Released":"28 Aug 1998","Runtime":"30 min","Genre":"Documentary","Director":"Richard Leyland","Writer":"N/A","Actors":"Nick Moran, Jason Statham","Plot":"Half hour program about the film ''Lock Stock and Two Smoking Barrels'' directed and written by Guy Ritchie. Interviews were conducted with Nick Moran, Jason Flemyng, Dexter Fletcher and Jason Statham.","Language":"English","Country":"United Kingdom","Awards":"N/A","Poster":"N/A","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"}],"Metascore":"N/A","imdbRating":"7.4","imdbVotes":"11","imdbID":"tt3522962","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"}'
+        curl_info:
+            url: 'http://www.omdbapi.com/?i=tt3522962&apiKey=31b14a8a'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 470
+            request_size: 95
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.036752
+            namelookup_time: 0.002403
+            connect_time: 0.005177
+            pretransfer_time: 0.005234
+            size_upload: 0.0
+            size_download: 757.0
+            speed_download: 20597.0
+            speed_upload: 0.0
+            download_content_length: 757.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.036714
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 172.67.19.55
+            certinfo: {  }
+            primary_port: 80
+            local_ip: 172.30.0.3
+            local_port: 45112
+            http_version: 2
+            protocol: 1
+            ssl_verifyresult: 0
+            scheme: HTTP
+            appconnect_time_us: 0
+            connect_time_us: 5177
+            namelookup_time_us: 2403
+            pretransfer_time_us: 5234
+            redirect_time_us: 0
+            starttransfer_time_us: 36714
+            total_time_us: 36752
+            effective_method: GET
+    index: 0

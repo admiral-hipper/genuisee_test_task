@@ -1,0 +1,4 @@
+extend type Query {
+    movies: [Movie!] @paginate
+    movie(imdbID: String! @eq): Movie @find
+}
